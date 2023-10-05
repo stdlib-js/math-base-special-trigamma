@@ -32,8 +32,8 @@ var trigamma = require( './../../dist' );
 
 // FIXTURES //
 
-var positive = require( './../..xtures/cpp/positive.json' );
-var negative = require( './../..xtures/cpp/negative.json' );
+var positive = require( './../fixtures/cpp/positive.json' );
+var negative = require( './../fixtures/cpp/negative.json' );
 
 
 // TESTS //
