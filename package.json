@@ -40,7 +40,8 @@
   "dependencies": {
     "@stdlib/constants-float64-pi-squared": "^0.1.1",
     "@stdlib/math-base-special-floor": "^0.1.1",
-    "@stdlib/math-base-special-sinpi": "^0.1.0"
+    "@stdlib/math-base-special-sinpi": "^0.1.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/array-base-incrspace": "^0.1.0",
