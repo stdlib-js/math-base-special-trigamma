@@ -63,7 +63,7 @@ The [trigamma function][trigamma-function] `ψ^(1)` is the derivative of the [di
 ## Usage
 
 ```javascript
-import trigamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-trigamma@esm/index.mjs';
+import trigamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-trigamma@v0.2.0-esm/index.mjs';
 ```
 
 #### trigamma( x )
@@ -118,7 +118,7 @@ var v = trigamma( NaN );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import trigamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-trigamma@esm/index.mjs';
+import trigamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-trigamma@v0.2.0-esm/index.mjs';
 
 var x;
 var v;
