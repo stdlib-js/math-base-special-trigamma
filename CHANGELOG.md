@@ -2,6 +2,50 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-08-08)
+
+<section class="features">
+
+### Features
+
+-   [`16db19b`](https://github.com/stdlib-js/stdlib/commit/16db19ba69114e4f4180464e8c4562b35a3078d2) - add C implementation for `math/base/special/trigamma`
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`16db19b`](https://github.com/stdlib-js/stdlib/commit/16db19ba69114e4f4180464e8c4562b35a3078d2) - **feat:** add C implementation for `math/base/special/trigamma` _(by Gunj Joshi)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Gunj Joshi
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
