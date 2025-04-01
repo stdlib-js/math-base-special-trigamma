@@ -56,32 +56,38 @@ The [trigamma function][trigamma-function] `ψ^(1)` is the derivative of the [di
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-trigamma
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var trigamma = require( '@stdlib/math-base-special-trigamma' );
+trigamma = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-trigamma@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var trigamma = require( 'path/to/vendor/umd/math-base-special-trigamma/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-trigamma@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.trigamma;
+})();
+</script>
 ```
 
 #### trigamma( x )
@@ -129,9 +135,14 @@ var v = trigamma( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var randu = require( '@stdlib/random-base-randu' );
-var trigamma = require( '@stdlib/math-base-special-trigamma' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-trigamma@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 var x;
 var v;
@@ -142,6 +153,11 @@ for ( i = 0; i < 10; i++ ) {
     v = trigamma( x );
     console.log( 'x: %d, ψ^(1)(x): %d', x, v );
 }
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -150,91 +166,7 @@ for ( i = 0; i < 10; i++ ) {
 
 <!-- C interface documentation. -->
 
-* * *
 
-<section class="c">
-
-## C APIs
-
-<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
-
-<section class="intro">
-
-</section>
-
-<!-- /.intro -->
-
-<!-- C usage documentation. -->
-
-<section class="usage">
-
-### Usage
-
-```c
-#include "stdlib/math/base/special/trigamma.h"
-```
-
-#### stdlib_base_trigamma( x )
-
-Evaluates the [trigamma function][trigamma-function].
-
-```c
-double out = stdlib_base_trigamma( -2.5 );
-// returns ~9.539
-
-out = stdlib_base_trigamma( 1.0 );
-// returns ~1.645
-```
-
-The function accepts the following arguments:
-
--   **x**: `[in] double` input value.
-
-```c
-double stdlib_base_trigamma( const double x );
-```
-
-</section>
-
-<!-- /.usage -->
-
-<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="notes">
-
-</section>
-
-<!-- /.notes -->
-
-<!-- C API usage examples. -->
-
-<section class="examples">
-
-### Examples
-
-```c
-#include "stdlib/math/base/special/trigamma.h"
-#include <stdio.h>
-
-int main( void ) {
-    const double x[] = { 4.0, -1.5, -0.5, 0.5 };
-
-    double y;
-    int i;
-    for ( i = 0; i < 4; i++ ) {
-        y = stdlib_base_trigamma( x[ i ] );
-        printf( "trigamma(%lf) = %lf\n", x[ i ], y );
-    }
-}
-```
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -320,9 +252,9 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/digamma]: https://github.com/stdlib-js/math-base-special-digamma
+[@stdlib/math/base/special/digamma]: https://github.com/stdlib-js/math-base-special-digamma/tree/umd
 
-[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma
+[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma/tree/umd
 
 <!-- </related-links> -->
 
