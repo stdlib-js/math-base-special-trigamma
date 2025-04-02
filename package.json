@@ -50,6 +50,7 @@
   "devDependencies": {
     "@stdlib/array-base-incrspace": "^0.2.2",
     "@stdlib/assert-is-nan": "^0.2.2",
+    "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
     "@stdlib/constants-float64-eps": "^0.2.2",
     "@stdlib/constants-float64-ninf": "^0.2.2",
     "@stdlib/constants-float64-pinf": "^0.2.2",
@@ -60,7 +61,6 @@
     "@stdlib/math-base-tools-evalrational-compile": "^0.3.0",
     "@stdlib/math-base-tools-evalrational-compile-c": "^0.2.1",
     "@stdlib/random-array-uniform": "^0.2.1",
-    "@stdlib/random-base-randu": "^0.2.1",
     "@stdlib/string-format": "^0.2.2",
     "@stdlib/string-substring-after": "^0.2.2",
     "@stdlib/string-substring-before": "^0.2.2",
