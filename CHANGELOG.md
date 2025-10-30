@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-10-01)
+## Unreleased (2025-10-30)
 
 <section class="features">
 
@@ -22,8 +22,9 @@
 
 <details>
 
+-   [`c11f434`](https://github.com/stdlib-js/stdlib/commit/c11f4349b04e794b08ebed9169fc1ef7495d658e) - **chore:** add structured package data for `math/base/special/trigamma` [(#8285)](https://github.com/stdlib-js/stdlib/pull/8285) _(by Manvith M)_
 -   [`d85f434`](https://github.com/stdlib-js/stdlib/commit/d85f43478ba915744a09478cc92952ced186acb9) - **test:** add tests to achieve full coverage in `math/base/special/trigamma` _(by Philipp Burckhardt)_
--   [`0dc3f20`](https://github.com/stdlib-js/stdlib/commit/0dc3f204f59a046f0245b22470de431d654a34cd) - **docs:** replace manual `for` loop in examples [(#6496)](https://github.com/stdlib-js/stdlib/pull/6496) _(by Harsh)_
+-   [`0dc3f20`](https://github.com/stdlib-js/stdlib/commit/0dc3f204f59a046f0245b22470de431d654a34cd) - **docs:** replace manual `for` loop in examples [(#6496)](https://github.com/stdlib-js/stdlib/pull/6496) _(by Harsh Yadav)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`0bd3d46`](https://github.com/stdlib-js/stdlib/commit/0bd3d468411928205902144c8f81c2c5b06f60cc) - **bench:** update random value generation [(#5471)](https://github.com/stdlib-js/stdlib/pull/5471) _(by Karan Anand, Karan Anand)_
 -   [`0258e19`](https://github.com/stdlib-js/stdlib/commit/0258e19861efda8129308f2caae486b35a249edd) - **chore:** update package meta data [(#2773)](https://github.com/stdlib-js/stdlib/pull/2773) _(by stdlib-bot, Philipp Burckhardt)_
@@ -40,11 +41,12 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Gunj Joshi
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
+-   Manvith M
 -   Philipp Burckhardt
 
 </section>
